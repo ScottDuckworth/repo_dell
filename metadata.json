@@ -1,0 +1,32 @@
+{
+  "name": "mhanby-repo_dell",
+  "author": "mhanby",
+  "description": "\nBased off of http://github.com/stahnma/puppet-module-puppetlabs_yum\n\nThe repository contains an extract of all of the drivers in Server Assistant. \nBecause Dell develops, tests, and ships drivers on a per-platform basis, the \nServer Assistant media contains a cross-reference for the drivers belonging to \neach system. We have extracted these drivers into a series of system-specific \nyum repositories.",
+  "license": "Apache Software License 2.0",
+  "project_page": "",
+  "source": "",
+  "summary": "Configures the Dell OMSA repository on Enterprise Linux (RHEL, CentOS) clients",
+  "version": "0.1.0",
+  "checksums": {
+    "Modulefile": "4f15591ec8740ea59694eb970c2662bf",
+    "README.md": "80c7fec81903125bbcf426788a027fb5",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/GPG-KEY-dell": "75acb9cb3f41c09471d4855f9f4f7147",
+    "files/RPM-GPG-KEY-dell": "dc96d9b1085297262de76d94e5c75bf5",
+    "files/RPM-GPG-KEY-fwupdate": "6975fdf3a39c9d4aaa316a41baa866ff",
+    "files/RPM-GPG-KEY-libsmbios": "84f483ec19d8fb2121df55f602ca8457",
+    "files/linux-security-publickey.txt": "22c8b1d825f7b8f7681fb803390b5853",
+    "files/repomd.xml.key": "1f0e16b524caf855e1c1013446da6b9b",
+    "lib/facter/dell_productname.rb": "d0aca5b3adccff6075d8a1a5d244f050",
+    "lib/facter/os_maj_version.rb": "a1dd18a64d87e0b349f17a3c9b95dc0b",
+    "manifests/init.pp": "de0e980b6e8efd9053c2d2fa99c9186b",
+    "manifests/keys.pp": "ddfb2a3baebc6a6fbb1361b576995d5c",
+    "manifests/params.pp": "e1e19a8ed3882ec662c201d3a1dd2054",
+    "manifests/rpm_gpg_key.pp": "25173df3af4da16c960f9e85f0b6f9ad",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates/dell-omsa-repository.repo": "f413bf0c37b2152f654f8f8f27f9eab0",
+    "tests/init.pp": "dad002599d77ddfbef18e445770f6fdd"
+  },
+  "dependencies": []
+}

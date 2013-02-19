@@ -1,0 +1,21 @@
+[dell-omsa-indep]
+name=Dell OMSA repository - Hardware independent
+type=rpm-md
+baseurl=<%= url %>/hardware/latest/platform_independent/<%= ostype %>
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dell
+    file:///etc/pki/rpm-gpg/RPM-GPG-KEY-libsmbios
+enabled=1
+failover=priority
+bootstrapurl=<%= url %>/hardware/latest/bootstrap.cgi
+
+[dell-omsa-specific]
+name=Dell OMSA repository - Hardware specific
+type=rpm-md
+baseurl=<%= url %>/hardware/latest/<%= dellprod %>/<%= ostype %>
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dell
+    file:///etc/pki/rpm-gpg/RPM-GPG-KEY-libsmbios
+enabled=1
+failover=priority
+bootstrapurl=<%= url %>/hardware/latest/bootstrap.cgi
