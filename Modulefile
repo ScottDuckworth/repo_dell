@@ -1,13 +1,12 @@
-name 'mhanby-repo_dell'
-version '0.1.0'
+name 'flakrat-repo_dell'
+version '0.1.1'
 
-author 'mhanby'
+author 'flakrat'
 license 'Apache Software License 2.0'
 project_page ''
 source ''
-summary 'Configures the Dell OMSA repository on Enterprise Linux (RHEL, CentOS) clients'
-description '
-Based off of http://github.com/stahnma/puppet-module-puppetlabs_yum
+summary 'Configures the Dell OMSA Yum repository config to point to a local mirror on Enterprise Linux (RHEL, CentOS) clients'
+description 'Based off of http://github.com/stahnma/puppet-module-puppetlabs_yum
 
 The repository contains an extract of all of the drivers in Server Assistant. 
 Because Dell develops, tests, and ships drivers on a per-platform basis, the 
