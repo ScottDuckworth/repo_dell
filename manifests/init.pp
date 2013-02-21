@@ -14,7 +14,7 @@ class repo_dell ( ) inherits repo_dell::params {
   if $::osfamily == 'RedHat' {
     if $::architecture == 'x86_64' {
 	    file { "/etc/yum.repos.d/dell-omsa-repository.repo":
-	      content => template("repo_dell/dell-omsa-repository.repo"),
+	      content => template("repo_dell/dell-omsa-repository.erb"),
 	      mode => "644",
 	    } 
 	    repo_dell::keys {'RPM-GPG-KEY-dell':
