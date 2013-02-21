@@ -8,6 +8,7 @@
   "summary": "Configures the Dell OMSA Yum repository config to point to a local mirror on Enterprise Linux (RHEL, CentOS) clients",
   "version": "0.1.1",
   "checksums": {
+    "LICENSE": "2b42edef8fa55315f34f2370b4715ca9",
     "Modulefile": "cdfb8106463e2e3ff8fdcf6d33136c46",
     "README.md": "80c7fec81903125bbcf426788a027fb5",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
