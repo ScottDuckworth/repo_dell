@@ -10,9 +10,9 @@ class repo_dell::params {
 
   # There are some URL manipulations that have to happen based on exact OS type
   if $::osfamily == 'RedHat' {
-    $url = "http://192.168.2.10/repo/dell"
+    $url = "http://164.111.161.5/repo/dell"
     $ostype = "rh${::os_maj_version}0_64"
-    $dellprod = "${::dell_productname}"
+    $dellprod = "pe${::dell_productname}"
     $urlbit = "${::os_maj_version}"
   }
 }

@@ -1,10 +1,10 @@
 name 'flakrat-repo_dell'
-version '0.1.1'
+version '0.1.2'
 
 author 'flakrat'
 license 'Apache Software License 2.0'
-project_page ''
-source ''
+project_page 'https://github.com/flakrat/repo_dell'
+source 'https://github.com/flakrat/repo_dell.git'
 summary 'Configures the Dell OMSA Yum repository config to point to a local mirror on Enterprise Linux (RHEL, CentOS) clients'
 description 'Based off of http://github.com/stahnma/puppet-module-puppetlabs_yum
 
